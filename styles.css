@@ -43,7 +43,7 @@ body {
 .landing-container-1 {
     height: 100%;
     width: 50%;
-    background-image: url('https://images.pexels.com/photos/1020315/pexels-photo-1020315.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    background-image: url('https://images.pexels.com/photos/373912/pexels-photo-373912.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -58,7 +58,7 @@ body {
     height: 50%;
     width: 60%;
     border: 2px solid #ffffff;
-    background: rgba(0,0,0,0.34);
+    background: rgba(0,0,0,0.45);
     border-radius: 10px;
 }
 

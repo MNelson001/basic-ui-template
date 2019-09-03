@@ -1,0 +1,148 @@
+/* ---------- GLOBAL ---------------- */
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    margin: 0px;
+}
+
+#landing, #about, #skills, #contact {
+    height: 100%;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    font-weight: 100;
+    flex-direction: column;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+}
+
+.underline {
+    height: 2px;
+    width: 47px;
+    background: #327ab6;
+    margin: 0px auto;
+}
+
+/* ---------- LANDING --------------- */
+
+#landing {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    background-image: url('https://images.pexels.com/photos/1020315/pexels-photo-1020315.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    flex-direction: column;
+}
+
+.landing-container {
+    height: 40%;
+    margin-top: 20%;
+    display: flex;
+    align-items: center;
+    width: 45%;
+    background: rgba(0,0,0,0.25);
+    border: 3px solid #707070;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+.landing-container-header {
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    color: #ffffff;
+    font-size: 32px;
+}
+
+.landing-container-header button {
+    background: transparent;
+    color: #ffffff;
+    width: 75%;
+    padding: 15px;
+    border: 2px solid #ffffff;
+    outline: none;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 100;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+}
+
+.landing-container-header button:hover {
+    background-color: rgba(17,233,233,0.45);
+    color: #ffffff;
+    transition: background-color 0.5s ease;
+}
+
+.your-needs {
+    height: 25%;
+    margin: 0px;
+    width: 65%;
+}
+
+.roles {
+    list-style: none;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+}
+
+.roles .icon-and-subtitle {
+    display: flex;
+    justify-content: space-between;
+    color: #ffffff;
+}
+
+.roles li {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 14px;
+    text-align: left;
+}
+
+.arrow {
+    position: absolute;
+    bottom: 0;
+}
+
+.arrow i {
+    color: #ffffff;
+    font-size: 28px;
+}
+
+/* ----- LANDING MEDIA QUERIES -------- */
+
+@media screen and (max-width: 928px) {
+
+    #landing {
+        align-items: center;
+    }
+
+    .landing-container {
+        width: 85%
+    }
+
+    .landing-container-header {
+        width: 85%;
+        font-size: 18px;
+    }
+}
+
+
+/*  */

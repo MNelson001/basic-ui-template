@@ -37,6 +37,7 @@ body {
     position: relative;
     display: flex;
     margin-top: 56px;
+    height: calc(100% - 56px);
 }
 
 .landing-container-1 {
@@ -85,6 +86,9 @@ body {
     background: #35889d;
     display: flex;
     align-items: center;
+    height: 50px;
+    width: 50px;
+    justify-content: center;
     padding: 20px;
     border-radius: 50%;
 }
@@ -168,7 +172,7 @@ body {
 
     .landing-container-1 {
         width: 100%;
-        height: calc(75% - 56px);
+        height: 75%;
         border: unset;
         border-bottom: 2px solid #3d3d3d;
     }
@@ -223,13 +227,13 @@ body {
     }
 
     .landing-container-2 {
-        height: 30%;
+        height: 50%;
         flex-direction: row;
         width: 85%;
     }
 
     .landing-container-2-header {
-        height: 90%;
+        height: 65%;
     }
 
     .landing-container-2-header p {
@@ -248,6 +252,8 @@ body {
     .role i {
         font-size: 12px;
         padding: 5px;
+        width: 25px;
+        height: 25px;
     }
 
     .role p {
